@@ -9,7 +9,8 @@ body {
   background: #ffdddd;
 }
 .btn-group {
-  margin: 10px 0;
+ text-align: center;
+  padding-top: 20px;
 }
 .btn-checkbox {
   display: inline-block;
