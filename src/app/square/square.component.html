@@ -1,0 +1,6 @@
+
+<div (click)="changeValue(square)">
+  <span *ngIf="square.value === 1" [ngClass]="{cross: square.value === 1}" [ngStyle]="{'background-image': 'url(http://www.clker.com/cliparts/m/I/t/P/V/m/x-mark-violet-md.png)'}">{{name}}</span>
+  <span *ngIf="square.value === 0" [ngClass]="{zero: square.value === 0}" [ngStyle]="{'background-image': 'url(http://www.clker.com/cliparts/C/o/q/q/V/8/green-zero-md.png)'}">{{name}}</span>
+  <span *ngIf="square.value === ''">{{name}}</span>
+</div>

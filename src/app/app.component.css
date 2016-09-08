@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+.wrapper {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #ffdddd;
+}
+.btn-group {
+  margin: 10px 0;
+}
+.btn-checkbox {
+  display: inline-block;
+}
+.btn-checkbox input {
+  width: 30px;
+  padding: 5px 0px 5px 5px;
+}

@@ -1,0 +1,20 @@
+div {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+div span {
+  background-size: auto 90px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+div span.cross {
+  background-position: 25px 14px, center;
+}
+div span.zero {
+  background-position: 25px 14px, center;
+}
