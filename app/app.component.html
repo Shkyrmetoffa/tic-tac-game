@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <div *ngFor="let line of matrix">
+    <app-square *ngFor="let elem of line" [square]="elem"></app-square>
+  </div>
+</div>
+<div class="btn-group">
+  <div class="btn-checkbox">
+    <label for="size">Field size:</label>
+    <input type="number" id="size" [(ngModel)]="size">
+  </div>
+  <button (click)="startGame(size)" style="padding: 5px">start</button>
+</div>
