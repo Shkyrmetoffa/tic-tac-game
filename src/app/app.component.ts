@@ -13,7 +13,7 @@ import {MatrixService} from './matrix.service';
 
 export class AppComponent {
   public matrix = [];
-  public size = 4;
+  public size = 3;
 
   constructor(private _matrixService: MatrixService){
     this.startGame(this.size);

@@ -11,7 +11,7 @@ import {MatrixService} from '../matrix.service';
 export class SquareComponent implements OnInit {
 
   @Input()
-  square: Object;
+  square: any;
 
   constructor(private _matrixService: MatrixService){}
 

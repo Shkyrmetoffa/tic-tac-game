@@ -19,3 +19,7 @@ body {
   width: 30px;
   padding: 5px 0px 5px 5px;
 }
+.btn-field,
+.btn-winLine {
+  margin: 10px 0;
+}
